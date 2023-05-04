@@ -12,7 +12,7 @@ import string
 from tkinter import *
 import time
 try:
-    import Tkinter as tk
+    import tkinter as tk
 except:
     import tkinter as tk
 import numpy as np
