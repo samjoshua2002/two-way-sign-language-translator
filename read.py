@@ -5,8 +5,8 @@ from textblob import TextBlob
 import webp
 import os
 import shutil
-dest="/home/aniket/Desktop/Projects/gif_extract/gif_data/"
-op_dest="/home/aniket/Desktop/Projects/gif_extract/filtered_data/"
+dest="C:\\Users\\hp\\two-way-sign-language-translator\\alphabet\\"
+op_dest="C:\\Users\\hp\\two-way-sign-language-translator\\filtered_data\\"
 for i in range(107):
     ip=dest+str(i)+".webp"
     op=dest+"tmp.gif"

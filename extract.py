@@ -13,8 +13,8 @@ def getListOfFiles(dirName):
                 
     return allFiles
 
-dirname = '/home/aniket/Downloads/giphy.com' #Your Full Path of Projects Folder
-dest="/home/aniket/Desktop/Projects/gif_extract/gif_data/"
+dirname = 'C:\\Users\\hp\\two-way-sign-language-translator\\giphy.com' #Your Full Path of Projects Folder
+dest="C:\\Users\\hp\\two-way-sign-language-translator\\gif_data"
 
 data=getListOfFiles(dirname)
 for i in range(len(data)):
